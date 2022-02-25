@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Sticky Miso Peppers",
+    "link": "https://www.jamieoliver.com/recipes/peppers-recipes/sticky-miso-peppers/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["DAIRY-FREE", "GLUTEN-FREE", "VEGAN", "VEGETARIAN"],
+    "ingredients": [
+      ["PINEAPPLE", 220, "g"],
+      ["FIRM TOFU", 280, "g"],
+      ["PEPPER", 2, ""],
+      ["SPRING ONION", 4, ""],
+      ["GARLIC", 4, "cloves"],
+      ["VERMICELLI", 90, "g"],
+      ["WASABI PEAS", 20, "g"],
+      ["RED MISO PASTE", 2, "teaspoons"]
+    ]
+  },
+  {
+    "name": "Veggie Pad Thai",
+    "link": "https://www.jamieoliver.com/recipes/vegetable-recipes/veggie-pad-thai/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["VEGETARIAN", "DAIRY-FREE"],
+    "ingredients": [
+      ["RICE NOODLE", 150, "g"],
+      ["PEANUTS", 20, "g"],
+      ["GARLIC", 2, "cloves"],
+      ["SILKEN TOFU", 80, "g"],
+      ["LIMES", 2, ""],
+      ["ONION", 1, ""],
+      ["ASPARAGUS", 320, "g"],
+      ["BEANSPROUT", 80, "g"],
+      ["EGG", 2, ""],
+      ["LETTUCE", .5, ""]
+    ]
+  },
+  {
+    "name": "Mushroom Mapo Tofu",
+    "link": "https://www.bbcgoodfood.com/recipes/mushroom-mapo-tofu",
+    "difficulty": "EASY",
+    "servingSize": 4,
+    "diet": ["VEGETARIAN", "VEGAN", "GLUTEN-FREE", "DAIRY-FREE"],
+    "ingredients": [
+      ["FIRM TOFU", 400, "g"],
+      ["GARLIC", 2, "cloves"],
+      ["GINGER", 2.5, "cm"],
+      ["RED CHILLI", 1, ""],
+      ["SHITAKE MUSHROOMS", 150, "g"],
+      ["SPRING ONION", 3, ""]
+    ]
+  },
+  {
+    "name": "Charred Spring Onions & Teriyaki Tofu",
+    "link": "https://www.bbcgoodfood.com/recipes/charred-spring-onions-teriyaki-tofu",
+    "difficulty": "EASY",
+    "diet": ["VEGETARIAN", "GLUTEN-FREE", "DAIRY-FREE"],
+    "servingSize": 2,
+    "ingredients": [
+      ["RICE", 150, "g"],
+      ["GINGER", .5, "cm"],
+      ["FIRM TOFU", 350, "g"],
+      ["SPRING ONION", 4, ""],
+      ["RED CHILLI", 1, ""]
+    ]
+  },
+  {
+    "name": "Crispy Garlicky Chicken",
+    "link": "https://www.jamieoliver.com/recipes/chicken-recipes/crispy-garlicky-chicken/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["CHICKEN", 240, "g"],
+      ["BREAD", 2, "slices"],
+      ["GARLIC", 1, "cloves"],
+      ["LEMON", 1, ""],
+      ["ROCKET", 50, "g"]
+    ]
+  },
+  {
+    "name": "Thai Green Chicken Curry",
+    "link": "https://www.jamieoliver.com/recipes/chicken-recipes/thai-green-chicken-curry/",
+    "difficulty": "EASY",
+    "servingSize": 6,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["CHICKEN", 750, "g"],
+      ["MUSHROOMS", 400, "g"],
+      ["COCONUT MILK", 400, "g"],
+      ["LIME", 2, ""],
+      ["GARLIC", 4, "cloves"],
+      ["ONION", 2, ""],
+      ["GINGER", 5, "cm"],
+      ["LEMONGRASS", 2, "stalks"],
+      ["GREEN CHILLI", 4, ""]
+    ]
+  }
+]
