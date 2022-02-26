@@ -9,7 +9,7 @@ const DIET_KEYS = {
 
 const DetailedRecipeCard = ({ recipe, ...props }) => {
   return <CardContainer {...props}>
-    <ImageContainer>
+    <ImageContainer className='img-container'>
       <CardImage src={recipe.image} />
     </ImageContainer>
     <CardDetails>
