@@ -6,10 +6,14 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   gap: 4em;
-  margin: 2em 0;
+  margin: 2em 2em;
 
   h1 {
     margin: 0;
     font-size: 3em;
+  }
+
+  button {
+    min-width: 20ch;
   }
 `
