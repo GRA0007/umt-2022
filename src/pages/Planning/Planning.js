@@ -65,7 +65,7 @@ const WeekPlan = ({ plan, changePlanRecipe }) => {
         </RecipeDetails>
       </RecipeCard>)}
     </PlanContainer>
-    <Button onClick={() => navigate('/meals')}>Looks Good!</Button>
+    <Button onClick={() => navigate('/ingredients')}>Looks Good!</Button>
   </Container> 
 }
 

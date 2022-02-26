@@ -12,3 +12,10 @@ export const Main = styled.main`
     margin: 0;
   }
 `
+
+export const Scroll = styled.div`
+  flex: 1 1 auto;
+  height: 0;
+  overflow-y: auto;
+  width: 100%;
+`
