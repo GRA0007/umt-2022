@@ -3,13 +3,14 @@ import { useState, useEffect } from 'react'
 import { Frog, Button, DetailedRecipeCard } from '/src/components'
 import { createPlan, getRecipeAlternative } from '/src/services/plan'
 import { cycleArray } from '/src/util/cycleArray'
+import { useFoodPlan } from '/src/hooks'
 
 import { Container, PlanContainer, RecipeCard, RecipeDetails, ModalContainer, RecipeList } from './planningStyle'
 
 const DAY_KEYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
 const Planning = () => {
-  const [plan, setPlan] = useState(null)
+  const {plan, setPlan} = useFoodPlan()
 
   // Create a plan on load
   useEffect(() => {
