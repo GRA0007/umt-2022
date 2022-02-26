@@ -16,6 +16,8 @@ export const Wrapper = styled.button`
   cursor: pointer;
   transform: translateY(-.2em);
   transition: transform .15s, box-shadow .15s, background .15s, color .15s, border .15s;
+  user-select: none;
+  width: 100%;
 
   &:active {
     transform: translateY(0);
