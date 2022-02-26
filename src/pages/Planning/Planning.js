@@ -62,7 +62,7 @@ const WeekPlan = ({ plan, changePlanRecipe }) => {
         </RecipeDetails>
       </RecipeCard>)}
     </PlanContainer>
-    <Button>Done</Button>
+    <Button>Looks Good!</Button>
   </Container> 
 }
 

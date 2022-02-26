@@ -9,7 +9,7 @@ export const FrogCage = styled.div`
     display: block;
     content: '';
     position: absolute;
-    background: #0d333170;
+    background: var(--background-shadow);
     inset: 0;
     bottom: 100%;
     border-radius: 50%;

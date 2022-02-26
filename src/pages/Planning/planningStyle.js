@@ -78,8 +78,8 @@ export const ModalContainer = styled.main`
 export const RecipeList = styled.div`
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 100%;
   width: 100%;
+  min-height: 0;
   padding: 1em;
   box-sizing: border-box;
   gap: 1em;

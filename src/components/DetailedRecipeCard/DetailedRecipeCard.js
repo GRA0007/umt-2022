@@ -1,4 +1,4 @@
-import { CardContainer, CardImage, CardDetails } from './detailedRecipeCardStyle'
+import { CardContainer, ImageContainer, CardImage, CardDetails } from './detailedRecipeCardStyle'
 
 const DIET_KEYS = {
   'DAIRY-FREE': 'DF',
@@ -9,7 +9,9 @@ const DIET_KEYS = {
 
 const DetailedRecipeCard = ({ recipe, ...props }) => {
   return <CardContainer {...props}>
-    <CardImage />
+    <ImageContainer>
+      <CardImage src={recipe.image} />
+    </ImageContainer>
     <CardDetails>
       <header>
         <span>{ recipe.name }</span>

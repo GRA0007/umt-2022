@@ -10,6 +10,7 @@ export const CardContainer = styled.div`
   border-radius: .5rem;
   background: var(--brand);
   overflow: hidden;
+  box-shadow: 0px 3px 0px 0px var(--brand-shadow);
 `
 
 export const CardDetails = styled.div`
@@ -48,9 +49,15 @@ export const CardDetails = styled.div`
   }
 `
 
+export const ImageContainer = styled.div`
+  width: 100%;
+  min-height: 0;
+`
+
 export const CardImage = styled.img`
   display: block;
   background: linear-gradient(30deg, grey, silver);
   width: 100%;
   height: 100%;
+  object-fit: cover;
 `
