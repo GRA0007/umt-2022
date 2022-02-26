@@ -4,6 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Food Frog</title>
+  <style>
+    :root {
+      --brand: #70CA80;
+      --brand-shadow: #34BC65;
+      --background: #036058;
+      --font: sans-serif;
+    }
+
+    body {
+      color-scheme: light dark;
+      margin: 0;
+      font-family: var(--font);
+      background: var(--background);
+    }
+
+    h1 {
+      color: var(--brand);
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+  </style>
   </head>
   <body>
     <div id="app"></div>
