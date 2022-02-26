@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Sticky Miso Peppers",
+    "link": "https://www.jamieoliver.com/recipes/peppers-recipes/sticky-miso-peppers/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["DAIRY-FREE", "GLUTEN-FREE", "VEGAN", "VEGETARIAN"],
+    "ingredients": [
+      ["PINEAPPLE", 220, "g"],
+      ["FIRM TOFU", 280, "g"],
+      ["PEPPER", 2, ""],
+      ["SPRING ONION", 4, ""],
+      ["GARLIC", 4, "cloves"],
+      ["VERMICELLI", 90, "g"],
+      ["WASABI PEAS", 20, "g"],
+      ["RED MISO PASTE", 2, "teaspoons"]
+    ]
+  },
+  {
+    "name": "Veggie Pad Thai",
+    "link": "https://www.jamieoliver.com/recipes/vegetable-recipes/veggie-pad-thai/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["VEGETARIAN", "DAIRY-FREE"],
+    "ingredients": [
+      ["RICE NOODLE", 150, "g"],
+      ["PEANUTS", 20, "g"],
+      ["GARLIC", 2, "cloves"],
+      ["SILKEN TOFU", 80, "g"],
+      ["LIME", 2, ""],
+      ["ONION", 1, ""],
+      ["ASPARAGUS", 320, "g"],
+      ["BEANSPROUT", 80, "g"],
+      ["EGG", 2, ""],
+      ["LETTUCE", 0.5, ""]
+    ]
+  },
+  {
+    "name": "Mushroom Mapo Tofu",
+    "link": "https://www.bbcgoodfood.com/recipes/mushroom-mapo-tofu",
+    "difficulty": "EASY",
+    "servingSize": 4,
+    "diet": ["VEGETARIAN", "VEGAN", "GLUTEN-FREE", "DAIRY-FREE"],
+    "ingredients": [
+      ["FIRM TOFU", 400, "g"],
+      ["GARLIC", 2, "cloves"],
+      ["GINGER", 2.5, "cm"],
+      ["RED CHILLI", 1, ""],
+      ["SHITAKE MUSHROOMS", 150, "g"],
+      ["SPRING ONION", 3, ""]
+    ]
+  },
+  {
+    "name": "Charred Spring Onions & Teriyaki Tofu",
+    "link": "https://www.bbcgoodfood.com/recipes/charred-spring-onions-teriyaki-tofu",
+    "difficulty": "EASY",
+    "diet": ["VEGETARIAN", "GLUTEN-FREE", "DAIRY-FREE"],
+    "servingSize": 2,
+    "ingredients": [
+      ["RICE", 150, "g"],
+      ["GINGER", 0.5, "cm"],
+      ["FIRM TOFU", 350, "g"],
+      ["SPRING ONION", 4, ""],
+      ["RED CHILLI", 1, ""]
+    ]
+  },
+  {
+    "name": "Crispy Garlicky Chicken",
+    "link": "https://www.jamieoliver.com/recipes/chicken-recipes/crispy-garlicky-chicken/",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["CHICKEN BREAST", 240, "g"],
+      ["BREAD", 2, "slices"],
+      ["GARLIC", 1, "cloves"],
+      ["LEMON", 1, ""],
+      ["ROCKET", 50, "g"]
+    ]
+  },
+  {
+    "name": "Thai Green Chicken Curry",
+    "link": "https://www.jamieoliver.com/recipes/chicken-recipes/thai-green-chicken-curry/",
+    "difficulty": "EASY",
+    "servingSize": 6,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["CHICKEN BREAST", 750, "g"],
+      ["MUSHROOMS", 400, "g"],
+      ["COCONUT MILK", 400, "g"],
+      ["LIME", 2, ""],
+      ["GARLIC", 4, "cloves"],
+      ["ONION", 2, ""],
+      ["GINGER", 5, "cm"],
+      ["LEMONGRASS", 2, "stalks"],
+      ["GREEN CHILLI", 4, ""]
+    ]
+  },
+  {
+      "name": "Chicken Salad",
+      "link": "https://www.woolworths.com.au/shop/recipes/warm-chicken-salad",
+      "difficulty": "MEDIUM",
+      "servingSize": 4,
+      "diet": ["GLUTEN-FREE"],
+      "ingredients": [
+        ["CHICKEN BREAST", 1200, "g"],
+        ["SUN DRIED TOMATOES", 18, "g"],
+        ["GARLIC", 1, "cloves"],
+        ["LETTUCE", 1, ""],
+        ["ASPARAGUS", 250, "g"]
+      ]
+  },
+  {
+    "name": "Caprese Salad",
+    "link": "https://www.yummly.com/recipe/Caprese-salad-307967?prm-v1",
+    "difficulty": "EASY",
+    "servingSize": 4,
+    "diet": ["VEGETARIAN"],
+    "ingredients": [
+      ["MOZARELLA", 250, "g"],
+      ["TOMATO", 3, ""],
+      ["BASIL", 15, "leaves"]
+    ]
+  },
+  {
+    "name": "Japanese Beef Curry",
+    "link": "https://www.sbfoods-worldwide.com/recipes/010.html",
+    "difficulty": "MEDIUM",
+    "servingSize": 5,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["BEEF CHUCK", 450, "g"],
+      ["ONION", 2, ""],
+      ["CARROT", 1, ""],
+      ["POTATO", 1, ""],
+      ["CURRY SAUCE MIX", 1, ""]
+    ]
+  },
+  {
+    "name": "Japanese Beef and Potatoes",
+    "link": "https://www.allrecipes.com/recipe/144299/nikujaga-japanese-style-meat-and-potatoes/",
+    "difficulty": "MEDIUM",
+    "servingSize": 4,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["SNOW PEA", 8, ""],
+      ["BEEF CHUCK", 120, "g"],
+      ["POTATO", 4, ""],
+      ["DASHI", 2, "cups"],
+      ["SOY SAUCE", 0.25, "cups"],
+      ["COOKING SAKE", 0.25, "cups"],
+      ["ONION", 1, ""]
+    ]
+  },
+  {
+    "name": "Carbonara",
+    "link": "https://www.bonappetit.com/recipe/traditional-carbonara",
+    "difficulty": "EASY",
+    "servingSize": 2,
+    "diet": [],
+    "ingredients": [
+      ["BACON", 100, "g"],
+      ["EGG", 4, ""],
+      ["PARMESAN", 0.33, "cups"],
+      ["PECORINO", 0.33, "cups"],
+      ["PASTA", 250, "g"]
+    ]
+  },
+  {
+    "name": "Satay Chicken",
+    "link": "https://www.woolworths.com.au/shop/recipes/easy-chicken-satay",
+    "difficulty": "EASY",
+    "servingSize": 4,
+    "diet": ["DAIRY-FREE"],
+    "ingredients": [
+      ["COCONUT MILK", 270, "ml"],
+      ["CHICKEN THIGH", 500, "g"],
+      ["PEANUT BUTTER", 0.5, "cups"],
+      ["SNOW PEAS", 200, "g"],
+      ["JASMINE RICE", 450, "g"],
+      ["PEANUTS", 0.25, "cups"],
+      ["LIME", 1, ""]
+    ]
+  }
+]
