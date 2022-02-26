@@ -8,15 +8,15 @@ const Onboarding = () => {
 
   const pages = [
     (
-      <Main>
+      <Main style={{justifyContent: 'center'}}>
         <h1>Food Frog</h1>
         <Frog />
-        <Button onClick={() => setStage(1)}>Begin</Button>
+        <Button onClick={() => setStage(1)} key="begin">Begin</Button>
       </Main>
     ),
     (
       <Main>
-        <h1>What's important to you</h1>
+        <h1>What's important to you?</h1>
         <Button onClick={() => setStage(2)}>Health</Button>
         <Button onClick={() => setStage(2)}>Price</Button>
         <Button onClick={() => setStage(2)}>Sustainability</Button>
@@ -24,7 +24,7 @@ const Onboarding = () => {
     ),
     (
       <Main>
-        <h1>How often do you want to cook per week</h1>
+        <h1>How often do you want to cook per week?</h1>
         
       </Main>
     ),
