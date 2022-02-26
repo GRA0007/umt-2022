@@ -1,4 +1,4 @@
-import { CardContainer } from './detailedRecipeCardStyle'
+import { CardContainer, CardImage, CardDetails } from './detailedRecipeCardStyle'
 
 const DIET_KEYS = {
   'DAIRY-FREE': 'DF',
@@ -9,10 +9,21 @@ const DIET_KEYS = {
 
 const DetailedRecipeCard = ({ recipe, ...props }) => {
   return <CardContainer {...props}>
-    <header>
-      <span>{ recipe.name }</span>
-    </header>
-    <span>{ recipe.diet.map(d => <label key={d}>{d.split('-').map(x => x[0]).join('')}</label>) }</span>
+    <CardImage />
+    <CardDetails>
+      <header>
+        <span>{ recipe.name }</span>
+        <span className="diet">
+          {recipe.diet.map(d =>
+            <label key={d}>{DIET_KEYS[d]}</label>)}
+        </span>
+      </header>
+      <div>
+        <span>{ recipe.difficulty.toLowerCase() }</span>
+        <span className='no-italic'>|</span>
+        <span>{ recipe.servingSize } Servings</span>
+      </div>
+    </CardDetails>
   </CardContainer>
 }
 

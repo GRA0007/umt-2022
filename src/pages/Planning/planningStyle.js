@@ -9,13 +9,18 @@ export const Container = styled.main`
   justify-content: center;
   margin: 2em 0;
 
-  h1 { margin: 0 }
+  & > header {
+    text-align: center;
+    color: var(--brand);
+
+    h1 { margin: 0 }
+  }
 `
 
 export const PlanContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 95%;
+  width: 90%;
 `
 
 export const RecipeCard = styled.div`
@@ -49,6 +54,7 @@ export const RecipeDetails = styled.div`
   border-radius: .5rem;
   box-sizing: border-box;
   padding-left: .75em;
+  box-shadow: 0px 3px 0px 0px var(--brand-shadow);
 `
 
 export const ModalContainer = styled.main`
@@ -66,4 +72,15 @@ export const ModalContainer = styled.main`
   box-shadow: 0 0 0 10000px hsla(0deg 0% 0% / 33%);
   border-radius: .5rem;
   padding: .5em;
+  z-index: 10;
+`
+
+export const RecipeList = styled.div`
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  gap: 1em;
 `
