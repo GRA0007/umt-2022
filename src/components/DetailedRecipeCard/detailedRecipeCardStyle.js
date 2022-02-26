@@ -56,8 +56,17 @@ export const ImageContainer = styled.div`
 
 export const CardImage = styled.img`
   display: block;
-  background: linear-gradient(30deg, grey, silver);
+  background-image: linear-gradient(to right, grey 5%, silver 45%, silver 55%, grey 95%);
+  background-size: 200%;
   width: 100%;
   height: 100%;
+  min-height: 4em;
   object-fit: cover;
+  animation: sliding 2s infinite linear;
+
+  @keyframes sliding {
+    100% {
+      background-position: 200%;
+    }
+  }
 `
