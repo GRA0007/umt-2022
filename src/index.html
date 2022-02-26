@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json">
     <title>Food Frog</title>
   <style>
     :root {
       --brand: #70CA80;
-      --brand-shadow: #34BC65;
+      --brand-shadow: #2ba658;
       --background: #036058;
       --font: sans-serif;
     }
@@ -19,7 +20,7 @@
       background: var(--background);
     }
 
-    h1 {
+    h1, h2, h3, h4, h5, h6 {
       color: var(--brand);
     }
 
@@ -27,6 +28,9 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+    }
+    * {
+      -webkit-tap-highlight-color: transparent;
     }
   </style>
   </head>
