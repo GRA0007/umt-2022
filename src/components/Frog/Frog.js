@@ -5,8 +5,10 @@ const frogsmall = new URL('/src/res/foodfrogsmall.png', import.meta.url)
 const frogthink = new URL('/src/res/frogthink.gif', import.meta.url)
 
 const Frog = ({ loading, small, ...props }) => (
-  <FrogCage {...props}>
-    <FrogImage src={loading ? frogthink : (small ? frogsmall : frog)} alt="A cute frog pixel" />
+  <FrogCage className={loading ? 'loading' : ''} {...props}>
+    <FrogImage
+      src={loading ? frogthink : (small ? frogsmall : frog)}
+      alt="A cute frog pixel" />
   </FrogCage>
 )
 
