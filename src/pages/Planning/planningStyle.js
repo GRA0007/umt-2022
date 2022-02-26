@@ -8,6 +8,7 @@ export const Container = styled.main`
   align-items: center;
   justify-content: center;
   margin: 2em 0;
+  padding: 0 2.5em;
 
   & > header {
     text-align: center;
@@ -20,7 +21,7 @@ export const Container = styled.main`
 export const PlanContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
 `
 
 export const RecipeCard = styled.div`
