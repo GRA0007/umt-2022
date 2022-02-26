@@ -5,7 +5,7 @@ const Select = ({
   ...props
 }) => (
   <Wrapper {...props}>
-    {options.map(option => <option>{option}</option>)}
+    {options.map(option => <option key={option}>{option}</option>)}
   </Wrapper>
 )
 

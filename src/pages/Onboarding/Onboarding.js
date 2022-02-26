@@ -5,6 +5,7 @@ import { Main } from './onboardingStyle'
 
 const Onboarding = () => {
   const [stage, setStage] = useState(0)
+  const [freq, setFreq] = useState('3 times per week')
   const navigate = useNavigate()
 
   const pages = [
@@ -28,7 +29,8 @@ const Onboarding = () => {
         <h1>How often do you want to cook?</h1>
         <Select
           options={['once a week', 'twice a week', '3 times per week', '4 times per week', '5 times per week', '6 times per week', 'every day']}
-          value="3 times per week"
+          value={freq}
+          onChange={e => setFreq(e.value)}
         />
         <Button onClick={() => navigate('/planning')}>Let's Plan!</Button>
       </Main>
