@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import { Frog, Button, DetailedRecipeCard } from '/src/components'
 import { createPlan, getRecipeAlternative } from '/src/services/plan'
@@ -40,6 +41,7 @@ const WeekPlan = ({ plan, changePlanRecipe }) => {
   const [changeRecipe, setChangeRecipe] = useState(null)
   const day = (new Date()).getDay()
   const dayKeys = cycleArray(DAY_KEYS, day - 1)
+  const navigate = useNavigate()
 
   const handleChangeRecipe = recipe => {
     changePlanRecipe(changeRecipe, recipe)
@@ -63,7 +65,7 @@ const WeekPlan = ({ plan, changePlanRecipe }) => {
         </RecipeDetails>
       </RecipeCard>)}
     </PlanContainer>
-    <Button>Looks Good!</Button>
+    <Button onClick={() => navigate('/meals')}>Looks Good!</Button>
   </Container> 
 }
 

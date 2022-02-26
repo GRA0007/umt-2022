@@ -52,6 +52,7 @@ export const CardDetails = styled.div`
 export const ImageContainer = styled.div`
   width: 100%;
   min-height: 0;
+  max-height: 4em;
 `
 
 export const CardImage = styled.img`
