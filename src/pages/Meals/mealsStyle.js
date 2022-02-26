@@ -7,14 +7,17 @@ export const Container = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2em 0;
+  margin: 0 2em 2em;
   padding: 0 2.5em;
+  padding-bottom: 5em;
 
   & > header {
     text-align: center;
     color: var(--brand);
+  }
 
-    h1 { margin: 0 }
+  h1 {
+    font-size: 2.5rem;
   }
 
   .img-container {
@@ -30,6 +33,21 @@ export const PlanContainer = styled.div`
 
   & > div {
     display: grid;
-    grid-template-columns: 4em 1fr;
+    grid-template-columns: 3em 1fr;
+    column-gap: 1em;
+    color: var(--brand);
+
+    > :first-child {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 1 / 1;
+      align-self: center;
+
+      &.today {
+        border: 2px solid var(--brand);
+        border-radius: 50%;
+      }
+    }
   }
 `
