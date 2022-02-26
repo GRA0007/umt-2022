@@ -12,8 +12,4 @@ export const Main = styled.main`
     margin: 0;
     font-size: 3em;
   }
-
-  button {
-    min-width: 20ch;
-  }
 `
