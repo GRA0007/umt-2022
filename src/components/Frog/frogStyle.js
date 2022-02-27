@@ -32,9 +32,21 @@ export const FrogCage = styled.div`
   }
 
   &.small {
+    position: relative;
     max-width: 3em;
     &::after {
       content: none;
+    }
+
+    animation: hopping 5s infinite ease-out;
+  }
+
+  @keyframes hopping {
+    0%, 47%, 53%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 5px;
     }
   }
 `

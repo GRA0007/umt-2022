@@ -14,7 +14,9 @@ export const NavContainer = styled.nav`
   z-index: 50;
 
   span {
+    position: relative;
+    top: 2px;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 `
