@@ -4,6 +4,7 @@ import Onboarding from './Onboarding/Onboarding'
 import PlanningPage from './Planning/Planning'
 import Ingredients from './Ingredients/Ingredients'
 import MealsPage from './Meals/Meals'
+import Shopping from './Shopping/Shopping'
 
 const Pages = () => (
   <Routes>
@@ -11,6 +12,7 @@ const Pages = () => (
     <Route path="/planning" element={<PlanningPage />} />
     <Route path="/ingredients" element={<Ingredients />} />
     <Route path="/meals" element={<MealsPage />} />
+    <Route path="/shopping" element={<Shopping />} />
   </Routes>
 )
 
