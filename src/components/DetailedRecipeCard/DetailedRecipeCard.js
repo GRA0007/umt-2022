@@ -8,7 +8,7 @@ const DIET_KEYS = {
 }
 
 const DetailedRecipeCard = ({ recipe, ...props }) => {
-  return <CardContainer {...props}>
+  return <CardContainer {...props} href={recipe.link} target="_blank" rel="noreferrer nofollow">
     <ImageContainer className='img-container'>
       <CardImage src={recipe.image} />
     </ImageContainer>

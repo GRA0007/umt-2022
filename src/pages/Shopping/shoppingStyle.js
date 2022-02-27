@@ -6,7 +6,7 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   gap: 4em;
-  margin: 2em 2em;
+  margin: 2em 2em 5em;
 
   h1 {
     margin: 0;

@@ -1,10 +1,10 @@
 import { Navigate } from 'react-router-dom'
 
-import { Button, DetailedRecipeCard, Navigation } from '/src/components'
+import { DetailedRecipeCard, Navigation } from '/src/components'
 import { cycleArray } from '/src/util/cycleArray'
 import { useFoodPlan } from '/src/hooks'
 
-import { Container, PlanContainer, RecipeCard, RecipeDetails } from './mealsStyle'
+import { Container, PlanContainer } from './mealsStyle'
 
 const DAY_KEYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
