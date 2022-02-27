@@ -37,7 +37,7 @@ export const PlanContainer = styled.div`
     column-gap: 1em;
     color: var(--brand);
 
-    > :first-child {
+    > span {
       display: inline-flex;
       align-items: center;
       justify-content: center;

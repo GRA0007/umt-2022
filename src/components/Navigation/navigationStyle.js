@@ -11,7 +11,7 @@ export const NavContainer = styled.nav`
   color: var(--background);
 `
 
-export const Tab = styled.div`
+export const Tab = styled.a`
   display: flex;
   width: 100%;
   align-content: flex-start;
@@ -19,8 +19,13 @@ export const Tab = styled.div`
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--background);
+  text-decoration: none;
 
-  &:not(:first-of-type) {
-    border-left: 3px solid var(--background);
+  &.active {
+    border-radius: .5rem .5rem 0 0;
+    background: var(--brand);
+    box-shadow: 0px -4px 0px 0px var(--brand),
+                2px 0px 5px 2px hsla(0deg 0% 0% / 10%)
   }
 `

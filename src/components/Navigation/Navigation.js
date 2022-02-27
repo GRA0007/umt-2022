@@ -1,9 +1,10 @@
+import { NavLink } from 'react-router-dom'
 import { NavContainer, Tab } from './navigationStyle'
 
 const Navigation = () => {
   return <NavContainer>
-    <Tab>Meal Plan</Tab>
-    <Tab>Shopping List</Tab>
+    <Tab as={NavLink} to='/meals'>Meal Plan</Tab>
+    <Tab as={NavLink} to='/shopping'>Shopping List</Tab>
   </NavContainer>
 }
 
