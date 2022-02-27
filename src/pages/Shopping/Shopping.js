@@ -1,5 +1,5 @@
 import { Navigate } from 'react-router-dom'
-import { CheckItem, Navigation } from '/src/components'
+import { CheckItem, Navigation, Top } from '/src/components'
 import { Main, Scroll } from './shoppingStyle'
 
 import { useIngredients } from '/src/hooks'
@@ -11,6 +11,8 @@ const Shopping = () => {
 
   return (
     <Main>
+      <Top />
+      
       <h1>Shopping List</h1>
 
       <Scroll>

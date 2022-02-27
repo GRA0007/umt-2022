@@ -2,13 +2,12 @@ import styled from '@emotion/styled'
 
 export const Container = styled.main`
   flex: 1;
-  gap: 4em;
+  gap: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 2em 2em;
-  padding: 0 2.5em;
   padding-bottom: 5em;
 
   & > header {
@@ -18,6 +17,7 @@ export const Container = styled.main`
 
   h1 {
     font-size: 2.5rem;
+    margin-top: 0;
   }
 
   .img-container {

@@ -30,6 +30,13 @@ export const FrogCage = styled.div`
   &.loading > img {
     margin-left: 20%;
   }
+
+  &.small {
+    max-width: 3em;
+    &::after {
+      content: none;
+    }
+  }
 `
 
 export const FrogImage = styled.img`

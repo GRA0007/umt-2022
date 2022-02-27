@@ -7,8 +7,8 @@ const DIET_KEYS = {
   'GLUTEN-FREE': 'GF',
 }
 
-const DetailedRecipeCard = ({ recipe, ...props }) => {
-  return <CardContainer {...props} href={recipe.link} target="_blank" rel="noreferrer nofollow">
+const DetailedRecipeCard = ({ recipe, link, ...props }) => {
+  return <CardContainer {...props} as={link ? 'a' : 'div'} href={recipe.link} target="_blank" rel="noreferrer nofollow">
     <ImageContainer className='img-container'>
       <CardImage src={recipe.image} />
     </ImageContainer>

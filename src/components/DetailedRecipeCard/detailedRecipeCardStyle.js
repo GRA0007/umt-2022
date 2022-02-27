@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const CardContainer = styled.a`
+export const CardContainer = styled.div`
   display: grid;
   width: 100%;
   grid-template-rows: 1fr auto;

@@ -1,6 +1,6 @@
 import { Navigate } from 'react-router-dom'
 
-import { DetailedRecipeCard, Navigation } from '/src/components'
+import { DetailedRecipeCard, Navigation, Top } from '/src/components'
 import { cycleArray } from '/src/util/cycleArray'
 import { useFoodPlan } from '/src/hooks'
 
@@ -19,12 +19,13 @@ const Meals = () => {
   const cycledPlan = cycleArray(plan, day)
 
   return <Container>
+    <Top />
     <section>
       <h1 style={{ textAlign: 'center' }}>Your Week</h1>
       <PlanContainer>
         {cycledPlan.map((recipe, i) => <div key={`${i}${recipe.name}`}>
           <span className={`day ${i === 0 && 'today'}`}>{dayKeys[i]}</span>
-          <DetailedRecipeCard recipe={recipe} />
+          <DetailedRecipeCard recipe={recipe} link />
         </div>)}
       </PlanContainer>
     </section>
