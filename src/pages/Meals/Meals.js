@@ -6,17 +6,17 @@ import { useFoodPlan } from '/src/hooks'
 
 import { Container, PlanContainer, RecipeCard, RecipeDetails } from './mealsStyle'
 
-const DAY_KEYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+const DAY_KEYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 const Meals = () => {
-  const { plan } = useFoodPlan()
+  const plan = useFoodPlan(state => state.plan)
   const day = (new Date()).getDay()
-  const dayKeys = cycleArray(DAY_KEYS, day - 1)
+  const dayKeys = cycleArray(DAY_KEYS, day)
 
   if (!plan)
     return <Navigate to='/' />
-
-  const cycledPlan = cycleArray(plan, day - 1)
+  
+  const cycledPlan = cycleArray(plan, day)
 
   return <Container>
     <section>

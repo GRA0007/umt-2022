@@ -8,7 +8,7 @@ import { useFoodPlan } from '/src/hooks'
 
 import { Container, PlanContainer, RecipeCard, RecipeDetails, ModalContainer, RecipeList } from './planningStyle'
 
-const DAY_KEYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+const DAY_KEYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 const Planning = () => {
   const {plan, setPlan} = useFoodPlan()
@@ -40,7 +40,7 @@ const StartPlanning = ({ handleStart }) => {
 const WeekPlan = ({ plan, changePlanRecipe }) => {
   const [changeRecipe, setChangeRecipe] = useState(null)
   const day = (new Date()).getDay()
-  const dayKeys = cycleArray(DAY_KEYS, day - 1)
+  const dayKeys = cycleArray(DAY_KEYS, day)
   const navigate = useNavigate()
 
   const handleChangeRecipe = recipe => {
