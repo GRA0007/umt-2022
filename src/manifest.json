@@ -1,8 +1,15 @@
 {
   "short_name": "Food Frog",
   "name": "Food Frog",
+  "icons": [
+    {
+      "src": "./res/foodfrogsmall.png",
+      "type": "image/png",
+      "sizes": "519x519"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#036058",
-  "background_color": "#036058"
+  "theme_color": "#1ba24c",
+  "background_color": "#3d3d3d"
 }
